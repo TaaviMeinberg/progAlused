@@ -14,8 +14,7 @@ public class Algus {
     /**
      * Arvamus ilma kohta
      */
-    public static void ilmaKommentaar() {
-             int temperature = -2;
+    public static void ilmaKommentaar(int temperature) {
         if (temperature > 0) {
             System.out.println("Sulab");
         } else{
@@ -27,7 +26,7 @@ public class Algus {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ilmaKommentaar();
+        ilmaKommentaar(-5);
         System.out.println("Hello World!");
         
     }

@@ -46,6 +46,6 @@ public class Pall {
     
     @Override
     public String toString(){
-        return "Pall kohal ("+x+"; "+y+")";
+        return "Pall kohal ("+x+"; "+y+"; "+r+")";
     }
 }
